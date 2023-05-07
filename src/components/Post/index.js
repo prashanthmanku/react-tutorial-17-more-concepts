@@ -1,3 +1,4 @@
+import {RiShareForwardLine} from 'react-icons/ri'
 import SocialButton from '../SocialButton'
 
 import './index.css'
@@ -12,7 +13,10 @@ const Post = () => (
     <div className="social-button-wrapper">
       <SocialButton>Like</SocialButton>
       <SocialButton>! subscribe</SocialButton>
-      <SocialButton>Like</SocialButton>
+      <SocialButton>
+        <RiShareForwardLine className="share-icon" />
+        share
+      </SocialButton>
     </div>
   </div>
 )
